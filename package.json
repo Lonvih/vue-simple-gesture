@@ -1,0 +1,14 @@
+{
+  "name": "vue-simple-gesture",
+  "version": "1.0.0",
+  "description": "a vue gesture contains only forward and back gesture related with vue-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-gesture"
+  ],
+  "author": "BryFroze",
+  "license": "MIT"
+}
