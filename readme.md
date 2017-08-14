@@ -16,9 +16,9 @@ npm install vue-simple-gesture
 ---
 ```javascript
 import Vue from 'vue'
-import vue-simple-gesture from 'vue-simple-gesture'
+import vueSimpleGesture from 'vue-simple-gesture'
 
-Vue.use(vue-simple-gesture)
+Vue.use(vueSimpleGesture)
 ```
 
 
