@@ -10,7 +10,8 @@ MyFinger.install = (Vue, options) => {
         endX,
         endY,
         lockByBack = false,
-        lockByForward = false
+        lockByForward = false,
+        that
     // 前进后退的html展示
     let forwardTpl = Vue.extend({
         template: `<div class="forward-arrow" style="position: fixed; z-index: 9999; height: 0.8rem; right: 0.1rem; top: 50%; margin-top: -0.2rem;">
@@ -26,8 +27,8 @@ MyFinger.install = (Vue, options) => {
     let backStr = new backTpl().$mount().$el
     Vue.mixin({
         mounted() {
+            that = this
             if (!installed) {
-                let that = this
                 installed = true
                 document.addEventListener('touchstart', touchstart)
     
